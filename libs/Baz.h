@@ -1,6 +1,6 @@
 #ifndef BAZ_H
 #define BAZ_H
-#include <QCoreApplication>
+#include <QString>
 
 void Baz(QString &str);
 

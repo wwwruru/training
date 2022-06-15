@@ -1,6 +1,6 @@
 #ifndef BAR_H
 #define BAR_H
-#include <QCoreApplication>
+#include <QString>
 
 void Bar(const QString &str);
 

@@ -1,6 +1,6 @@
 #ifndef FOO_H
 #define FOO_H
-#include <QCoreApplication>
+#include <QString>
 
 void Foo(QString str);
 

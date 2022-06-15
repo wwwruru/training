@@ -1,6 +1,4 @@
-#include <QCoreApplication>
-#include <stdio.h>
-#include <QDebug>
+#include <QTextStream>
 #include "Foo.h"
 #include "Bar.h"
 #include "Baz.h"
@@ -18,8 +16,8 @@ int main(int argc, char *argv[])
     Foo(str);
     Baz(str);
     Bar(str);
-    cout << __VERSION__;
+
+    cout << Version;
     cout.flush();
-    
     return 0;
 }
